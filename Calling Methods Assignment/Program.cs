@@ -10,10 +10,11 @@ class Program
 
         var operatorObject = new Methods();
         var result = operatorObject.Add(userValue, 4);
-        result = operatorObject.Subtract(result, 3);
-        result = operatorObject.Divide(result, 1);
-
+        var result2 = operatorObject.Subtract(userValue, 2);
+        var result3 = operatorObject.Divide(userValue, 1);
         Console.WriteLine(result);
+        Console.WriteLine(result2);
+        Console.WriteLine(result3);
         Console.ReadLine();
     }
 }
